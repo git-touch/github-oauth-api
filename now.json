@@ -1,4 +1,5 @@
 {
+  "name": "github-oauth-api-example",
   "env": {
     "CLIENT_SECRET": "@client_secret"
   }
