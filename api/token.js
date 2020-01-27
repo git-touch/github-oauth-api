@@ -4,7 +4,8 @@ export default async (req, res) => {
   const r = await fetch("https://github.com/login/oauth/access_token", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      accept: "application/json" // Return JSON
     },
     body: JSON.stringify({
       ...req.body,
